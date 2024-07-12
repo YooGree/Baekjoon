@@ -9,5 +9,6 @@ public class P1000_A더하기B {
         B = sc.nextInt();
 
         System.out.println(A + B);
+        // 테스트
     }
 }
