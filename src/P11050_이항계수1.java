@@ -23,4 +23,5 @@ public class P11050_이항계수1 {
         // 1번 성질
         return BC(n - 1, k - 1) + BC(n - 1, k);
     }
+
 }
