@@ -10,6 +10,8 @@ public class P25192_인사성밝은곰곰이 {
 
         int N = Integer.parseInt(br.readLine());
         Set<String> set = new HashSet<>();
+
+
         int cnt = 0;
 
         for (int i = 0; i < N; i++) {
