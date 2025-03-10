@@ -20,6 +20,7 @@ public class P1149_RGB거리 {
         DP = new int[N][3];
 
         StringTokenizer st;
+
         for(int i = 0; i < N; i++) {
 
             st = new StringTokenizer(br.readLine(), " ");
