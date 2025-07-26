@@ -29,14 +29,14 @@ public class P1261_알고스팟 {
         StringTokenizer st;
 
         st = new StringTokenizer(br.readLine());
-        N = Integer.parseInt(st.nextToken()); // 도착지 행
-        M = Integer.parseInt(st.nextToken()); // 도착지 열
+        M = Integer.parseInt(st.nextToken()); // 도착지 행
+        N = Integer.parseInt(st.nextToken()); // 도착지 열
         map = new int[N][M];
 
         for (int i = 0; i < N; i++) {
             String line = br.readLine();
             for (int j = 0; j < M; j++) {
-                map[i][j] = line.charAt(j) - '0';
+                map[i][j] = Character.getNumericValue(line.charAt(j));
             }
         }
 
