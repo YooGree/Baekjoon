@@ -26,5 +26,4 @@ public class P21866_추첨을통해커피를받자 {
         }
         sc.close();
     }
-    }
 }
